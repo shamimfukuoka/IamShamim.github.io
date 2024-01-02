@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+    overflow: hidden; /* Clear the float */
+}
+
+.profile-photo {
+    width: 190px; /* Adjust the width as needed */
+    height: 190px; /* Adjust the height as needed */
+    border-radius: 50%; /* Creates a circular profile photo */
+    margin-left: 20px; /* Add margin to the left for spacing */
+    float: right; /* Float the photo to the right */
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 33px; /* Adjust the font size for the header */
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+p.research-career {
+    color: #f9f9fc; /* Change this color to your desired color code */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.category {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+/* Lets format the Click here button color, size and hover setting */
+.category a {
+    color: #0066cc; /* Blue color for links, you can change this to your preferred color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.category a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+
+
+
+/* Special formatting of the Social content */
+
+.social {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dadbd7; /* Yellow background color, you can change this to your preferred color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.social p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Default text color for paragraphs */
+}
+
+.social a {
+    color: #0066cc; /* Blue color for links, you can change this to your preferred color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.social a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
